@@ -1,0 +1,32 @@
+.seatItem {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    line-height: 1;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #CCCCCC;
+    transition: background-color .2s ease;
+}
+
+.seatItem_status_vacant {
+    background-color: #27ae60;
+}
+
+.seatItem_status_vacant:hover {
+    background-color: #2ecc71;
+}
+
+.seatItem_status_booked {
+    background-color: #e74c3c;
+    cursor: not-allowed;
+}
+
+.seatItem_status_ordered {
+    background-color: #f1c40f;
+}
